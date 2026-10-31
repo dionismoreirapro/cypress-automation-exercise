@@ -1,0 +1,19 @@
+{
+  "name": "cypress-automation-exercise",
+  "version": "1.0.0",
+  "description": "Suite Cypress modular para os casos de teste do Automation Exercise, com cypress-mochawesome-reporter e GitHub Actions.",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser chrome",
+    "test": "cypress run --browser chrome",
+    "test:headed": "cypress run --browser chrome --headed"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
